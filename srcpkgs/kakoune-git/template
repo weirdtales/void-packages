@@ -1,21 +1,17 @@
 # Template file for 'kakoune'
 pkgname=kakoune-git
 version=20161110
-revision=1
+revision=2
 build_style="gnu-makefile"
 hostmakedepends="asciidoc git clang"
 makedepends="boost-devel ncurses-devel"
-depends=""
 maintainer="Mel Boyce <void@syngin.net>"
 homepage="https://github.com/mawww/kakoune"
 license="MIT"
-short_desc="A code editor heavily inspired by Vim."
-nopie=yes
-
+short_desc="A code editor heavily inspired by Vim"
 provides="kakoune-${version}_${revision}"
 replaces="kakoune>=0"
-
-CXXFLAGS="-fpie"
+nopie=yes
 
 do_fetch() {
 	local url="https://github.com/mawww/kakoune.git"
@@ -31,4 +27,8 @@ do_build() {
 do_install() {
 	cd ${wrksrc}/src
 	make PREFIX=/usr DESTDIR=${DESTDIR} install
+}
+
+post_install() {
+	vlicense UNLICENSE
 }

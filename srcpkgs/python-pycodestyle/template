@@ -1,7 +1,7 @@
 # Template file for 'python-pycodestyle'
 pkgname=python-pycodestyle
-version=2.0.0
-revision=5
+version=2.2.0
+revision=1
 noarch=yes
 replaces="pycodestyle>=0"
 wrksrc="pycodestyle-${version}"
@@ -14,14 +14,10 @@ maintainer="Alessio Sergi <al3hex@gmail.com>"
 homepage="https://github.com/PyCQA/pycodestyle"
 license="MIT"
 distfiles="${PYPI_SITE}/p/pycodestyle/pycodestyle-${version}.tar.gz"
-checksum=37f0420b14630b0eaaf452978f3a6ea4816d787c3e6dcbba6fb255030adae2e7
+checksum=df81dc3293e0123e2e8d1f2aaf819600e4ae287d8b3af8b72181af50257e5d9a
 alternatives="pycodestyle:pycodestyle:/usr/bin/pycodestyle2"
 
 post_install() {
-	# fix permissions
-	find ${DESTDIR}/usr/lib/python*/site-packages -type f -perm 0640 \
-		-exec chmod 0644 "{}" \;
-
 	sed -n '/Copyright/,/SOFTWARE\./p' pycodestyle.py >LICENSE
 	vlicense LICENSE
 }

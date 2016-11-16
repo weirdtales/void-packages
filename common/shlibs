@@ -711,7 +711,7 @@ libtevent.so.0 libsmbclient-3.6.16_1
 libsmbios.so.2 libsmbios-2.2.28_1
 libsmbios_c.so.2 libsmbios-2.2.28_1
 libwbclient.so.0 libsmbclient-3.5.6_1
-libjasper.so.1 libjasper-1.900.1_1
+libjasper.so.4 libjasper-1.900.27_1
 librecode.so.0 librecode-3.6_1
 libenca.so.0 libenca-1.13_1
 libwavpack.so.1 libwavpack-4.60.1_1
@@ -719,6 +719,7 @@ libvala-0.24.so.0 libvala-0.24.0_1
 libvala-0.26.so.0 libvala-0.26.2_1
 libvala-0.28.so.0 libvala-0.28.0_1
 libvala-0.30.so.0 libvala-0.30.0_1
+libvala-0.34.so.0 libvala-0.34.0_1
 libSDL_net-1.2.so.0 SDL_net-1.2.7_1
 libmodplug.so.1 libmodplug-0.8.8_1
 libfetch.so.2 libfetch-2.34_8
@@ -1468,6 +1469,7 @@ libcjs-dbus.so.0 cjs-2.0.0_1
 libmuffin.so.0 muffin-2.0.5_1
 libcinnamon-desktop.so.4 cinnamon-desktop-2.0.4_1
 libcinnamon-control-center.so.1 libcinnamon-control-center-2.4.2_1
+libcvc.so.0 cinnamon-desktop-3.2.0_1
 libnemo-extension.so.1 libnemo-2.0.8_1
 libxshmfence.so.1 libxshmfence-1.1_1
 libgoffice-0.8.so.8 goffice0.8-0.8.13_1
@@ -1541,6 +1543,7 @@ libgfbgraph-0.2.so.0 gfbgraph-0.2.2_1
 libgtkhex-3.so.0 libgtkhex-3.10.0_1
 libgdlmm-3.0.so.2 libgdlmm-3.7.3_1
 libgnote-3.12.so.0 gnote-3.12.0_1
+libgnote-3.22.so.0 gnote-3.22.0_1
 libdmraid.so.1 dmraid-1.0.0.rc16.3_5
 libdovecot.so.0 dovecot-2.2.11_2
 libdovecot-login.so.0 dovecot-2.2.11_2
@@ -2069,6 +2072,7 @@ libqt5keychain.so.0 qtkeychain-qt5-0.4.0_1
 libphonon4qt5.so.4 phonon-qt5-4.8.3_1
 libphonon4qt5experimental.so.4 phonon-qt5-4.8.3_1
 libtelepathy-qt5.so.0 telepathy-qt5-0.9.5_1
+libtelepathy-qt5-service.so.0 telepathy-qt5-0.9.7_1
 libtelepathy-qt5-farstream.so.0 telepathy-qt5-farstream-0.9.5_1
 libKF5Attica.so.5 attica-qt5-5.6.0_1
 libechonest5.so.2.3 libechonest-qt5-2.3.0_1
@@ -2650,4 +2654,8 @@ libpcre2-16.so.0 libpcre2-10.22_1
 libpcre2-32.so.0 libpcre2-10.22_1
 libpcre2-8.so.0 libpcre2-10.22_1
 libpcre2-posix.so.1 libpcre2-10.22_1
-
+libui.so.0 libui-alpha3.1_1
+libgnome-autoar-0.so.0 gnome-autoar-0.1.1_1
+libgnome-autoar-gtk-0.so.0 gnome-autoar-0.1.1_1
+libxapp.so.1 xapps-1.0.2_1
+libite.so.3 libite-1.8.2_1

@@ -1,7 +1,7 @@
 # Template file for 'libgnomekbd'
 pkgname=libgnomekbd
-version=3.6.0
-revision=6
+version=3.22.0.1
+revision=1
 build_style=gnu-configure
 configure_args="--disable-static"
 hostmakedepends="pkg-config intltool $(vopt_if gir gobject-introspection) glib-devel"
@@ -11,8 +11,8 @@ short_desc="Gnome keyboard configuration library"
 homepage="http://gnome.org/"
 license="GPL-2"
 maintainer="Juan RP <xtraeme@voidlinux.eu>"
-distfiles="${GNOME_SITE}/$pkgname/3.6/$pkgname-$version.tar.xz"
-checksum=c41ea5b0f64da470925ba09f9f1b46b26b82d4e433e594b2c71eab3da8856a09
+distfiles="${GNOME_SITE}/$pkgname/3.22/$pkgname-$version.tar.xz"
+checksum=4efdb6b8ec92f04caced710b5edb285fb27715059ed6ca5e100b6933999a93de
 
 build_options="gir"
 if [ -z "$CROSS_BUILD" ]; then

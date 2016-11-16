@@ -1,10 +1,10 @@
 # Template file for 'rpi-kernel'
 #
-_githash="bc6f89ea2c5d5bd7d55143e1f1eedc773b3f57d9"
+_githash="b9f9a035f3a7b3ed90850719585b9532c1aff237"
 _gitshort="${_githash:0:7}"
 
 pkgname=rpi-kernel
-version=4.4.27
+version=4.4.31
 revision=1
 wrksrc="linux-${_githash}"
 maintainer="Juan RP <xtraeme@voidlinux.eu>"
@@ -12,7 +12,7 @@ homepage="http://www.kernel.org"
 license="GPL-2"
 short_desc="The Linux kernel for Raspberry Pi (${version%.*} series [git ${_gitshort}])"
 distfiles="https://github.com/raspberrypi/linux/archive/${_githash}.tar.gz"
-checksum=9f1828d8bf3c98492d14d01828f1c71572fbec231b2c1cbfede832625a33c681
+checksum=a7c40e5d20d1781f01fd410a8271d353728ab1b606fef9591cc99f517f589c9a
 
 _kernver="${version}_${revision}"
 

@@ -1,6 +1,6 @@
 # Template file for 'radare2'
 pkgname=radare2
-version=0.10.6
+version=1.0.2
 revision=1
 build_style=gnu-configure
 configure_args="--with-syscapstone"
@@ -11,4 +11,4 @@ maintainer="Juan RP <xtraeme@voidlinux.eu>"
 license="LGPL-3"
 homepage="http://www.radare.org"
 distfiles="${homepage}/get/${pkgname}-${version}.tar.xz"
-checksum=8e887526b22bdf7839fe10779c8da11d6156a5999382c2fa7bf6791a3f6a9d45
+checksum=91fde12126e29bf8bbd6c4aad9e5b226b96afd289e55a52db3df872dc580a294

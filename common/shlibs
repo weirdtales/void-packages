@@ -137,7 +137,7 @@ libnvidia-gtk2.so.346.47 nvidia-gtklibs-346.47_1 ignore
 libnvidia-gtk3.so.346.47 nvidia-gtklibs-346.47_1 ignore
 libnvidia-glcore.so.346.47 nvidia340-libs-340.46_1 ignore
 libnvidia-glsi.so.346.72 nvidia-libs-346.72_1 ignore
-libnvidia-fatbinaryloader.so.367.57 nvidia-libs-367.57_1 ignore
+libnvidia-fatbinaryloader.so.375.20 nvidia-libs-375.20_1 ignore
 libglapi.so.0 libglapi-7.11_1
 libgbm.so.1 libgbm-9.0_1
 librsvg-2.so.2 librsvg-2.26.0_1
@@ -165,8 +165,8 @@ libnl-idiag-3.so.200 libnl3-3.2.28_1
 libnl-nf-3.so.200 libnl3-3.2.1_1
 libnl-genl-3.so.200 libnl3-3.2.1_1
 libnl-cli-3.so.200 libnl3-3.2.1_1
-libreadline.so.6 readline-6.3_1
-libhistory.so.6 readline-6.3_1
+libreadline.so.7 readline-7.0_1
+libhistory.so.7 readline-7.0_1
 libxfconf-0.so.2 xfconf-4.9.1_1
 libxfce4util.so.7 libxfce4util-4.12.1_1
 libxfce4panel-1.0.so.4 xfce4-panel-4.9.2_1
@@ -355,7 +355,7 @@ libMagickCore-6.Q16.so.2 libmagick-6.8.8.4_1
 libMagickWand-6.Q16.so.2 libmagick-6.8.8.4_1
 libMagick++-6.Q16.so.6 libmagick-6.9.0.5_1
 libltdl.so.7 libltdl-2.2.6_1
-libpoppler.so.64 poppler-0.48.0_1
+libpoppler.so.65 poppler-0.49.0_1
 libpoppler-glib.so.8 poppler-glib-0.18.2_1
 libpoppler-cpp.so.0 poppler-cpp-0.18.2_1
 libpoppler-qt4.so.4 poppler-qt4-0.22.3_1

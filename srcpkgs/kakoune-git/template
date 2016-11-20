@@ -1,7 +1,7 @@
 # Template file for 'kakoune'
 pkgname=kakoune-git
-version=20161110
-revision=2
+version=20161121
+revision=1
 build_style="gnu-makefile"
 hostmakedepends="asciidoc git clang"
 makedepends="boost-devel ncurses-devel"
